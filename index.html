@@ -26,6 +26,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        primary:'#0f766e'
                     },
                     fontFamily: {
                         'poppins': ["Poppins", "sans-serif"]
@@ -38,7 +39,7 @@
 </head>
 
 <body class="font-poppins px-1">
-    <header class="md:w-9/12 max-[600px]:w-full mx-auto">
+    <header class="lg:w-9/12 max-[600px]:w-full mx-auto">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -69,13 +70,26 @@
             </div>
             <div class="navbar-end">
                 <div class="h-10 w-10 bg-gray-300 text-center rounded-full">
-                    <i class="fa-solid text-gray-500 fa-user text-xl pt-1"></i></div>
+                    <i class="fa-solid text-gray-500 fa-user text-xl pt-1"></i>
+                </div>
             </div>
         </div>
     </header>
 
     <main>
-
+        <!-- Hero Section -->
+        <section class="lg:w-9/12 mx-auto">
+            <h4 class="text-center max-[600px]:my-5 md:my-10 text-2xl font-semibold text-gray-400">Brnging Families
+                Together <i class="fa-solid fa-fire-flame-curved text-orange-500"></i></h4>
+            <h1 class="text-center max-[600px]:text-4xl md:text-6xl font-semibold">Your Path to Adoption <br
+                    class="max-[600px]:hidden"> Starts Here</h1>
+            <p class="text-center my-5 text-[15px]">It is a long established fact a reader will be distracted by the readable content of
+                a page when looking
+                <br>at its layout. The point of using pet adoption is that it
+            </p>
+            <p class="text-center"><button class="btn bg-primary text-white">View More</button></p>
+            <img class="mx-auto md:my-10" src="assets/images/pet.webp" alt="">
+        </section>
     </main>
 
     <footer>
