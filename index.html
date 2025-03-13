@@ -37,8 +37,8 @@
 
 </head>
 
-<body class="font-poppins">
-    <header class="w-9/12 border mx-auto">
+<body class="font-poppins px-1">
+    <header class="md:w-9/12 max-[600px]:w-full mx-auto">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -56,26 +56,20 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <a href="index.html" class="flex items-center gap-1"><img class="h-6" src="assets/images/logo.webp" alt="">
+                <a href="index.html" class="flex items-center gap-1"><img class="h-6" src="assets/images/logo.webp"
+                        alt="">
                     <span class="text-2xl font-bold">Peddy</span></a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                        <details>
-                            <summary>Parent</summary>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li><a>Item 3</a></li>
+                    <li><a>Home</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>Contact</a></li>
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn">Button</a>
+                <div class="h-10 w-10 bg-gray-300 text-center rounded-full">
+                    <i class="fa-solid text-gray-500 fa-user text-xl pt-1"></i></div>
             </div>
         </div>
     </header>
