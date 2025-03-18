@@ -35,7 +35,12 @@
             }
         }
     </script>
-
+    <style>
+        .active {
+            border: 1px solid #0f766e;
+            transition: .3s ease-in-out;
+        }
+    </style>
 </head>
 
 <body class="font-poppins px-1">
@@ -89,7 +94,7 @@
                 <br>at its layout. The point of using pet adoption is that it
             </p>
             <p class="text-center"><button class="btn bg-primary text-white">View More</button></p>
-            <img class="mx-auto md:my-10" src="assets/images/pet.webp" alt="">
+            <img class="mx-auto md:my-10" src="assets/images/pet.webp" alt="" loading="lazy">
         </section>
 
         <!-- Category section -->
@@ -105,7 +110,7 @@
             <div class="md:my-20">
                 <!-- Category Button here -->
                 <div id="category-buttons" class="grid grid-cols-2 md:grid-cols-4 gap-5">
-                    <button class="border rounded-md py-5">Cat</button>
+
                 </div>
             </div>
         </section>
@@ -121,29 +126,16 @@
             <div class="grid lg:grid-cols-4  gap-3">
                 <div class="lg:col-span-3">
                     <div id="pets-container" class="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-3">
-
-                        
                     </div>
                 </div>
 
                 <div class="border rounded-md p-3">
-                    <div class="grid grid-cols-2 gap-3">
-                        <div>
-                            <img class="rounded-md"
-                                src="https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg" alt="">
-                        </div>
-                        <div>
-                            <img class="rounded-md"
-                                src="https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg" alt="">
-                        </div>
-                        <div>
-                            <img class="rounded-md"
-                                src="https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg" alt="">
-                        </div>
+                    <div id="like-image-container" class="grid grid-cols-2 gap-3">
+                        
+                        
                     </div>
                 </div>
             </div>
-
 
         </section>
     </main>
